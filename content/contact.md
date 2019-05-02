@@ -2,7 +2,7 @@
 title: "Contact"
 description: "Description"
 slug: "contact"
-image: 3M1A5309-min.jpg
+image: 3M1A5653-min.jpg
 keywords: "keyword1"
 categories: 
     - ""
