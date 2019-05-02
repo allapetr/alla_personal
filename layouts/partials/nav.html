@@ -1,0 +1,17 @@
+{{ "<!-- Header -->" | safeHTML }}
+<nav class="navbar navbar-custom navbar-expand-lg fixed-top">
+  <a class="navbar-brand d-lg-none" href="/">Alla Petrichei</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse my-0" id="navbarNav">
+    <ul class="navbar-nav">
+
+    {{ range .Site.Params.Navigation.links }}
+        <li class="nav-item">
+            <a class="nav-link" href="{{ .url | absURL}}">{{ .name }}</a>
+        </li>
+    {{ end }}
+    </ul>
+  </div>
+</nav>

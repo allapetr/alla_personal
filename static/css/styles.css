@@ -1,0 +1,149 @@
+#banner.major {
+    height: 100vh;
+}
+
+#banner:after {
+    -moz-transition: opacity 0.25s ease;
+    -webkit-transition: opacity 0.25s ease;
+    -ms-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
+    -moz-transition-delay: 0.25s;
+    -webkit-transition-delay: 0.25s;
+    -ms-transition-delay: 0.25s;
+    transition-delay: 0.25s;
+}
+
+#background {
+    width: 100vw;
+    height:100vh;
+    background-image: url('../img/3M1A5374-min.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+/* Transparent layer  over background photo  */
+#banner:after {
+    background-color: inherit;
+}
+
+/* remove white border below title */
+header.major > :first-child:after {
+    content: none; 
+}
+
+/* space between title and subtitle */
+header.major {
+    margin-bottom: 1em;
+}
+
+/* size of main subtitle */
+#banner > .inner .content {
+    font-size: 120%; 
+}
+
+@media screen and (max-width: 736px){
+    #banner > .inner {
+        padding: 2em 2em 0em 2em !important;
+        text-align: center;
+        background-color: #000;
+        opacity:0.75;
+        width: calc(100% - 3em);
+    }
+}
+
+#banner > .inner {
+    padding: 4em 0 2em 0 ;
+    margin: 0 auto;
+    max-width: 65em;
+    width: calc(100% - 6em);
+}
+
+#banner {
+    margin: 0;
+    position: relative;
+    top: inherit;
+}
+
+b, strong {
+ font-weight: 700 !important;
+}
+
+#content {
+    margin-top: inherit;
+}
+
+/* image on each page */
+.image-content {
+    max-height: 50vh;
+    max-width: 50vh;
+    width: auto;
+    margin: 1em 1em 1em 0;
+}
+
+.row {
+    padding: 1em 1em 1em 1em;
+}
+
+/* padding image */
+.pb-6 {
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+  }
+
+/* get ride of foldable card's border */
+.card-header {
+    /* background-color: inherit !important; */
+    padding: inherit !important;
+    border:0 !important;
+}
+
+.card-body {
+    background-color: rgb(7, 17, 26);
+}
+
+body{
+    background-color: rgb(7, 17, 26) !important;
+
+}
+
+.card-header > * > button{
+    font-size: inherit;
+    font: inherit;
+    border:0 !important;
+    box-shadow: none;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.card-header > * > button > span {
+    display: block;
+}
+
+.container {
+    margin-top: 15vh !important;
+
+}
+
+.navbar-custom {
+    background-color: #fff;
+    color: black !important;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,1);
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link {
+    color: blue !important;
+}
+
+.navbar-custom .nav-item:hover .nav-link{
+    color: orangered !important;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #000;
+}

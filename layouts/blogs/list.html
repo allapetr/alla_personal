@@ -1,0 +1,68 @@
+<html>
+{{ "<!-- Header -->" | safeHTML }}
+    {{ partial "header.html" . }}
+
+    <body>
+
+    {{ "<!-- Wrapper -->" | safeHTML }}
+        <div id="wrapper">
+
+        {{ partial "nav.html" . }}
+
+        {{ "<!-- Main -->" | safeHTML }}
+            <div id="main">
+
+                <section id="banner" class="style2">
+                    <div class="inner">
+			{{ if .Params.image }}
+                        <span class="image">
+                            <img src="{{ .Site.Params.baseURL }}/img/{{ .Params.image }}" alt="" />
+                        </span>
+			{{ end }}
+                        <header class="major">
+                            <h1>Hi{{ .Title }}</h1>
+                        </header>
+                        <div class="content">
+                            {{ .Content }}
+                        </div>
+                    </div>
+                </section>
+
+                <section id="two" class="">
+                    {{ range .Pages }}
+                <div class="d-flex justify-content-center">
+
+                    <section>
+                        
+
+                        
+                                
+                                <div class="my-4" style="width:50vw; font-size:0.9em">
+                                <span><h3 class="card-title"><a href="{{ .URL }}">{{ .Title }}</a></h3> <small class="text-muted">05/2019</small></span>
+                                <p class="card-text">{{ .Description }}</p>
+                            
+                                
+
+                                </div>
+
+                            
+                        
+                    </section>
+                    </div>
+
+                    {{ end }}
+                </section>
+            </div>
+            
+        {{ "<!-- Footer -->" | safeHTML}}
+			{{ if .Site.Params.footer.enable }}
+				{{ partial "footer.html" . }}
+            {{ end }}
+        
+        </div>
+
+    {{ "<!-- Scripts -->" | safeHTML}}
+        {{ partial "js.html" . }}
+        
+    </body>
+</html>

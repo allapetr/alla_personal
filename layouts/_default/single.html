@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+
+    {{ partial "header.html" . }}
+    <body>
+    {{ partial "nav.html" . }}
+
+    {{ "<!-- Main -->" | safeHTML }}
+            
+    
+
+    {{ "<!-- Wrapper -->" | safeHTML }}
+            
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <img class="" src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}" alt="" />
+                </div>
+                <div class="col-md my-4 my-sm-0">
+                    <h1>{{ .Title}}</h1>
+                    <div class="my-4" style="text-align:justify">
+                        {{ .Content }}
+                    </div>
+                </div>
+            </div>
+                
+
+        <div class="row">
+            <div class="col-sm-12 col-md-5">  </div>
+            <div class="col-sm-12 col-md-2">  
+                {{ "<!-- Footer -->" | safeHTML}}
+                    {{ if .Site.Params.footer.enable }}
+                        {{ partial "footer.html" . }}
+                    {{ end }}
+            </div>
+            <div class="col-sm-12 col-md-5">  </div>
+        </div>
+        </div>
+
+
+    {{ "<!-- Scripts -->" | safeHTML}}
+        {{ partial "js.html" . }}
+
+    </body>
+</html>

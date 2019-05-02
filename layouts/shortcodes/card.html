@@ -1,0 +1,14 @@
+<div class="card">
+    <div class="card-header text-white bg-dark" id="{{.Get `idh`}}">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed text-white btn-block" data-toggle="collapse" data-target="#{{.Get `idb`}}" aria-expanded="false" aria-controls="{{.Get `idb`}}">
+            {{.Get "title"}}
+        </button>
+      </h5>
+    </div>
+    <div id="{{.Get `idb`}}" class="collapse" aria-labelledby="{{.Get `idh`}}" data-parent="#accordion">
+      <div class="card-body">
+       {{.Inner}}
+      </div>
+    </div>
+</div>
