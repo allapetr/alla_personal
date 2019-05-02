@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "allapetrichei.com"
+baseURL = "http://allapetrichei.com"
 languageCode = "en-uk"
 title = "Alla Petrichei"
 theme = "forty"
