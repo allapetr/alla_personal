@@ -9,6 +9,8 @@ categories:
     - ""
 date: 2017-10-31T22:26:09-05:00
 draft: false
+type: "special"
+layout: "teachinglayout"
 ---
 
 Violinist Alla Petrichei started her musical journey in her native Romania where she performed extensively as soloist at national festivals and competitions from the age of 7. In 2011, Alla moved to the United Kingdom to persue her A-Levels as a full HMC scholar at St Peter’s School, York. During her time there, she was the recipient of the 2012 St Peter’s Music Award and 2013 Orange Bromhead Prize for String Instrument Accomplishment and was given the opportunity to perform as soloist at St Patrick’s Cathedral, New York and Leeds Town Hall, Leeds.
