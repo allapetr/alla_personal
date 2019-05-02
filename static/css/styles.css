@@ -139,10 +139,13 @@ body{
     color: blue !important;
 }
 
+.navbar-custom .nav-item {
+    display:inline-block; 
+}
+
 .navbar-custom .nav-item:hover .nav-link{
     color: #fff !important;
     background-color: #5e7853 !important;
-    display:inline-block;
 }
 
 /* change the link color */
