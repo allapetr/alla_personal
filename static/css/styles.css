@@ -75,12 +75,17 @@ b, strong {
 /* image on each page */
 .image-content {
     max-height: 50vh;
-    max-width: 50vh;
     width: auto;
-    margin: 1em 1em 1em 0;
 }
 
-.row {
+@media screen and (max-width: 480px) {
+    .image-content {
+        max-height: 60vh;
+        width: auto;
+    }
+}
+
+.row > * {
     padding: 1em 1em 1em 1em;
 }
 
