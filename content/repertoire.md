@@ -74,7 +74,7 @@ Romanian Folk Dances
 **Ludwig van Beethoven**				
 Romance No. 2 in F major
 
-**Benjamin Britten**
+**Benjamin Britten**  
 Suite for Violin and Piano, Op. 6
 
 **Arcangelo Corelli**				
@@ -102,7 +102,7 @@ Variations on an original theme, op. 15, Legende
 
 {{% card title="Solo Violin Pieces" idh="heading4" idb="body4" %}}
 **Johann Sebastian Bach**					
-Partitas No. 1 and 3 for Solo Violin
+Partitas No. 1 and 3 for Solo Violin,  
 Sonata No. 1 for Solo Violin
 
 **Eugene Ysaye**					
