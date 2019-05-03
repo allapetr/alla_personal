@@ -23,7 +23,7 @@ disqusShortname = ""
   description = ""
 
   # Link custom assets relative to /static
-  custom_css = ["css/styles.css", "css/bootstrap.css"]
+  custom_css = ["css/styles.css", "css/bootstrap.min.css"]
   custom_js  = ["js/bootstrap.bundle.min.js"]
   favicon    = "favicon.ico"
 
