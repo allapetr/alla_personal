@@ -1,15 +1,10 @@
 {{ "<!-- Footer -->" | safeHTML}}
-    <footer id="footer">
-        <div class="inner">
-            <ul class="icons">
-                {{ range .Site.Params.Footer.social }}
-                    <li><a href="{{ .url | safeHTML }}" class="icon alt {{ .icon }}" target="_blank"><span class="label">{{ .label }}</span></a></li>
-                {{ end }}
-            </ul>
-            <ul class="copyright">
-                {{ range .Site.Params.Footer.quicklinks}}
-                <li>{{ .text }} <a href="{{ .url | safeHTML }}">{{ .alt }}</a></li>
-                {{ end }}
-            </ul>
-        </div>
-    </footer>
+    
+
+<footer class="footer">
+  <div class="text-center">
+    {{ range .Site.Params.Footer.social }}
+        <a href="{{ .url | safeHTML }}" target="_blank"><i class="fa {{ .icon }}" style="color:white;"></i></a>
+    {{ end }}
+  </div>
+</footer>

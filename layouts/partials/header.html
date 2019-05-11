@@ -1,0 +1,38 @@
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+	{{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
+	{{ .Hugo.Generator }}
+	<title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
+	{{ "<!-- Stylesheets -->" | safeHTML }}
+	<!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "css/ie9.css" }}"/><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "css/ie8.css" }}"/><![endif]-->
+
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,600i" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css" integrity="sha384-QokYePQSOwpBDuhlHOsX0ymF6R/vLk/UQVz3WHa6wygxI5oGTmDTv8wahFOSspdm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+	{{ range .Site.Params.custom_css }}
+		<link rel="stylesheet" href="{{ . | absURL }}">
+	{{ end }}
+
+	{{ $styles := resources.Get "styles.css" | minify | fingerprint }}
+	<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+
+	{{ "<!-- Custom Fonts -->" | safeHTML }}
+	<link href="{{ "css/font-awesome.min.css" | absURL }}" rel="stylesheet" type="text/css">
+
+	{{ with .Site.Params.favicon }}
+	<link rel="shortcut icon" type="image/x-icon" href="{{ . | absURL }}">
+	<link rel="icon" type="image/x-icon" href="{{ . | absURL }}">
+	{{ end }}
+
+	{{ "<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->" | safeHTML }}
+	{{ "<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->" | safeHTML }}
+	{{ "<!--[if lt IE 9]>" | safeHTML }}
+	<script src="js/ie/html5shiv.js"></script>
+	<script src="js/ie/html5shiv.jsrespond.min.js"></script>
+	{{ "<![endif]-->" | safeHTML }}
+</head>

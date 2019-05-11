@@ -1,6 +1,6 @@
 {{ "<!-- Header -->" | safeHTML }}
-<nav class="navbar navbar-custom navbar-expand-lg fixed-top">
-  <a class="navbar-brand d-lg-none" href="/">Alla Petrichei</a>
+<nav class="navbar navbar-custom navbar-expand-xl fixed-top">
+  <a class="navbar-brand d-xl-none" href="/">Alla Petrichei</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -9,7 +9,7 @@
 
     {{ range .Site.Params.Navigation.links }}
         <li class="nav-item">
-            <a class="nav-link px-1 px-sm-5" href="{{ .url | absURL}}">{{ .name }}</a>
+            <a class="nav-link px-1 px-sm-4" href="{{ .url | absURL}}">{{ .name }}</a>
         </li>
     {{ end }}
     </ul>
