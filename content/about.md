@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About me"
 description: "Description"
 slug: "about"
 image: 3M1A5187-min.jpg
