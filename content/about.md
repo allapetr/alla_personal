@@ -13,7 +13,7 @@ type: "special"
 layout: "teachinglayout"
 ---
 
-Professional violinist Alla Petrichei started her musical journey in her native Romania where she performed extensively as soloist at national festivals and competitions from the age of 7. In 2011, Alla moved to the United Kingdom to persue her A-Levels as a full HMC scholar at St Peter’s School, York. During her time there, she was the recipient of the 2012 St Peter’s Music Award and 2013 Orange Bromhead Prize for String Instrument Accomplishment and was given the opportunity to perform as soloist at St Patrick’s Cathedral, New York and Leeds Town Hall, Leeds.
+Professional modern violinist Alla Petrichei started her musical journey in her native Romania where she performed extensively as soloist at national festivals and competitions from the age of 7. In 2011, Alla moved to the United Kingdom to persue her A-Levels as a full HMC scholar at St Peter’s School, York. During her time there, she was the recipient of the 2012 St Peter’s Music Award and 2013 Orange Bromhead Prize for String Instrument Accomplishment and was given the opportunity to perform as soloist at St Patrick’s Cathedral, New York and Leeds Town Hall, Leeds.
 
 In 2013, Alla became an Undergraduate scholar at the Royal Northern College of Music, Manchester and subsequently received guidance from violinists such as Mauricio Fuks, Boris Belkin, Alexander Sitkovetsky, Henning Kraggerud, Frederieke Saeijs and Jack Liebeck. She featured as soloist on stage in the RNCM production of The Merry Widowopera by Franz Lehár in 2014, was a finalist in the RNCM Schubert Competition and gained valuable experience as chamber musician in duo, trio and quartet formats. She graduated in 2017 and is currently completing her Masters in Performance.
 
