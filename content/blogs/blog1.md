@@ -2,7 +2,7 @@
 title: "Ipsum"
 description: "Hello world"
 slug: "ipsum"
-image: pic10.jpg
+image: 3M1A5266-min.jpg
 keywords: ""
 categories: 
     - ""
