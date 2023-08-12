@@ -1,6 +1,6 @@
 ---
 title: "Ipsum"
-description: ""
+description: "Hello world"
 slug: "ipsum"
 image: pic10.jpg
 keywords: ""
