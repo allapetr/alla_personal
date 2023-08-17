@@ -135,7 +135,7 @@ html,body{
     background-image: url("../img/banner1.jpg");
     background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .card-header > * > button{
