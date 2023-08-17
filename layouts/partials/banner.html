@@ -1,5 +1,5 @@
 {{ "<!-- Banner -->" | safeHTML}}
-    <section id="banner" class="major">
+    <section id="banner" class="major" style='background-image: url("{{ .Site.Params.banner.bgImage | absURL }}");'>
         <div class="inner">
             <header class="major">
                 <h1>{{ .Site.Params.Banner.title }}</h1>
