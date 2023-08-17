@@ -160,7 +160,9 @@ html,body{
     background-color: #fff;
     color: black !important;
     font-size: 1em !important;
-    border: 2px #000 solid;
+    border-top: 1px #a9a9a9 solid;
+    border-bottom: 1px #a9a9a9 solid;
+
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
