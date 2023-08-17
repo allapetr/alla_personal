@@ -160,8 +160,8 @@ html,body{
     background-color: #fff;
     color: black !important;
     font-size: 1em !important;
-    border-top: 1px #a9a9a9 solid;
-    border-bottom: 1px #a9a9a9 solid;
+    border-top: 0.5px #d3d3d3 solid;
+    border-bottom: 0.5px #d3d3d3 solid;
 
 }
 /* change the brand and text color */
