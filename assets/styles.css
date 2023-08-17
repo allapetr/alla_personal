@@ -99,9 +99,9 @@ body, input, select, textarea{
 }
 
 body{
-    background-color: rgb(7, 17, 26) !important;
+    background-color: #fff !important;
     min-height: 100vh;
-    color:#fff !important;
+    color:#000 !important;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
