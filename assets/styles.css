@@ -69,23 +69,21 @@ body, input, select, textarea{
 
 .badgehome > .title > h1 {
     font-size: 3.75em !important;
-    font-weight: 300;
+    font-weight: bold;
     line-height: 1.2;
+    text-transform: uppercase;
 }
 
 .badgehome > .subtitle{
     font-size: 130%;
     font-weight: 300;
     margin: 0;
-    letter-spacing: 0.25em;
     text-transform: uppercase;
 }
 @media screen and (max-width: 736px){
     .badgehome {
         padding: 2em 2em 0em 2em !important;
         text-align: center;
-        background-color: #000;
-        opacity:0.75;
         width: calc(100% - 3em);
     }
 
