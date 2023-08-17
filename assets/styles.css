@@ -68,7 +68,7 @@ body, input, select, textarea{
 }
 
 .badgehome > .title > h1 {
-    font-size: 3.75em !important;
+    font-size: 3em !important;
     font-weight: bold;
     line-height: 1.2;
     text-transform: uppercase;
