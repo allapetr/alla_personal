@@ -70,7 +70,6 @@ body, input, select, textarea{
     font-size: 3em !important;
     font-weight: bold;
     line-height: 1.2;
-    text-transform: uppercase;
     text-align: center;
 }
 
@@ -78,7 +77,6 @@ body, input, select, textarea{
     font-size: 130%;
     font-weight: 300;
     margin: 0;
-    text-transform: uppercase;
     text-align: center;
 }
 @media screen and (max-width: 736px){
