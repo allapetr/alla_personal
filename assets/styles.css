@@ -63,21 +63,21 @@ body, input, select, textarea{
 
 .badgehome > .title {
     width: auto;
-    
+    color: white;
 }
 
 .badgehome > .title > h1 {
     font-size: 3em !important;
     font-weight: bold;
     line-height: 1.2;
-    text-align: center;
+    text-align: left;
 }
 
 .badgehome > .subtitle{
     font-size: 130%;
     font-weight: 300;
     margin: 0;
-    text-align: center;
+    text-align: left;
 }
 @media screen and (max-width: 736px){
     .badgehome {
