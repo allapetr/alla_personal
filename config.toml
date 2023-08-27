@@ -102,10 +102,6 @@ disqusShortname = ""
     subtitle1 = "Here to create positive change through music education"
     buttonText = ""
 
-  # Purpose/mission section
-  [params.mission]
-    description = "I live and breath music"
-
   # Tiles Section
   [params.tiles]
     enable = false
