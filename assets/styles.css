@@ -81,7 +81,7 @@ body, input, select, textarea{
     color: white;
 }
 
-.badgehome > .subtitle1, .badgehome > .subtitle2{
+.badgehome > .subtitle1{
     font-size: 130%;
     font-weight: 300;
     margin: 0;
