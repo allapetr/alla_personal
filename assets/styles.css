@@ -80,6 +80,15 @@ body, input, select, textarea{
     text-align: left;
     color: white;
 }
+
+.badgehome > .subtitle1, .badgehome > .subtitle2{
+    font-size: 130%;
+    font-weight: 300;
+    margin: 0;
+    text-align: left;
+    color: white;
+    font-style: italic;
+}
 @media screen and (max-width: 736px){
     .badgehome {
         padding: 2em 2em 0em 2em !important;
