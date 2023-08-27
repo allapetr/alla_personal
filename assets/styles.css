@@ -104,6 +104,8 @@ body, input, select, textarea{
     margin: 0;
     text-align: left;
     color: white;
+    margin-bottom: 0rem !important;
+
 }
 
 .badgehome > .subtitle1{
@@ -113,6 +115,8 @@ body, input, select, textarea{
     text-align: left;
     color: white;
     font-style: italic;
+    margin-bottom: 0rem !important;
+
 }
 @media screen and (max-width: 736px){
     .badgehome {
