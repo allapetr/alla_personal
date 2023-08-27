@@ -99,6 +99,8 @@ disqusShortname = ""
     # the 'static/img' folder.
     title = "Alla Petrichei"
     subtitle = "Professional violinist and music educator"
+    subtitle1 = "Living through and for music"
+    subtitle2 = "Determined to make the world a better place through music"
     buttonText = ""
 
 
