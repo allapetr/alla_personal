@@ -40,11 +40,36 @@ b, strong {
     background-color: rgb(7, 17, 26);
 }
 
-.footer {
-    height: auto;
-    max-height: 10vh;
-    width:100%;
+#footer {
+  background: #fff;
+  padding: 25px 0;
+  color: #555;
 }
+
+#footer .copyright {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+#footer .copyright a {
+  color: #d9ac16;
+}
+
+#footer .social {
+  text-align: right;
+  margin-bottom: 0;
+}
+
+#footer .social li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#footer .social li a {
+  font-size: 22px;
+  color: #d9ac16;
+}
+
 img {
     max-width: 100%;
 }
