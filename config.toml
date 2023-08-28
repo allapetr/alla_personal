@@ -48,7 +48,7 @@ disqusShortname = ""
       url = "/"
 
     [[params.navigation.links]]
-      name = "About"
+      name = "Violin playing CV"
       url = "about"
       
     #[[params.navigation.links]]
