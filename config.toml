@@ -50,6 +50,10 @@ disqusShortname = ""
     [[params.navigation.links]]
       name = "Violin playing CV"
       url = "about"
+
+    [[params.navigation.links]]
+      name = "Teaching CV"
+      url = "teaching"
       
     #[[params.navigation.links]]
       #name = "Blog"
@@ -66,10 +70,6 @@ disqusShortname = ""
     [[params.navigation.links]]
       name = "Repertoire"
       url = "repertoire"
-
-    [[params.navigation.links]]
-      name = "Teaching CV"
-      url = "teaching"
 
     [[params.navigation.links]]
       name = "Contact"
