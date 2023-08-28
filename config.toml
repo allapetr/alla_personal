@@ -68,7 +68,7 @@ disqusShortname = ""
       url = "repertoire"
 
     [[params.navigation.links]]
-      name = "Teaching"
+      name = "Teaching CV"
       url = "teaching"
 
     [[params.navigation.links]]
