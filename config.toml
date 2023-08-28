@@ -60,7 +60,7 @@ disqusShortname = ""
       #url = "blogs"
 
     [[params.navigation.links]]
-      name = "Concerts"
+      name = "Volunteering"
       url = "concerts"
 
     [[params.navigation.links]]
