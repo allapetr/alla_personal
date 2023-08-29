@@ -102,6 +102,10 @@ disqusShortname = ""
     subtitle1 = "Here to create positive change through music"
     buttonText = ""
 
+  [params.repertoire]
+    title = "Repertoire"
+    url = "/repertoire"
+    
   # Tiles Section
   [params.tiles]
     enable = false
