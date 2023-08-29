@@ -33,17 +33,11 @@
                 <div class="d-flex justify-content-center">
 
                     <section>
-                        
 
-                        
-                                
                                 <div class="my-4" style="width:50vw; font-size:0.9em">
                                 <span><h3 class="card-title"><a href="{{ .URL }}">{{ .Title }}</a></h3> <small class="text-muted">05/2019</small></span>
                                 <p class="card-text">{{ .Description }}</p>
-                            
-                                
-
-                                </div>
+                      </div>
 
                             
                         
@@ -52,14 +46,10 @@
 
                     {{ end }}
                 </section>
-            </div>
-            
-        {{ "<!-- Footer -->" | safeHTML}}
-			{{ if .Site.Params.footer.enable }}
-				{{ partial "footer.html" . }}
-            {{ end }}
-        
-        </div>
+            </div>		
+	</div>
+	    
+	{{ partial "footer.html" . }}
 
     {{ "<!-- Scripts -->" | safeHTML}}
         {{ partial "js.html" . }}
