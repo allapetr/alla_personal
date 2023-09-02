@@ -102,6 +102,10 @@ disqusShortname = ""
     subtitle1 = "Here to create positive change through music"
     buttonText = ""
 
+  [params.mission]
+      btnURL = "/concerts"
+      btnText = "Read more"
+      
   [params.repertoire]
     title = "Repertoire"
     url = "/repertoire"
