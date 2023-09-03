@@ -123,10 +123,14 @@ body, input, select, textarea{
 
     .badgehome > .title > h1 {
         font-size: 2.75em !important;
+        text-align: center;
+
     }
     
     .badgehome > .subtitle{
-    font-size: 110%;        
+      font-size: 110%;    
+      text-align: center;
+
     }
 }
 
