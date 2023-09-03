@@ -127,7 +127,7 @@ body, input, select, textarea{
 
     }
     
-    .badgehome > .subtitle{
+    .badgehome > .subtitle, .badgehome > .subtitle1{
       font-size: 110%;    
       text-align: center;
 
