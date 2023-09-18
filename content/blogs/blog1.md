@@ -2,12 +2,12 @@
 title: "Doamna Vetuța și domnul Ionel din Scărișoara, Munții Apuseni"
 description: "O întâlnire minunată în timpul turneului prin România"
 slug: "ipsum"
-image: PXL_20230601_060414302.jpg
+image: Screen Shot 2023-09-18 at 7.41.15 PM
 keywords: ""
 categories: 
     - ""
     - ""
-date: 2023-09-18T21:00:00-05:00
+date: 2023-09-17T21:00:00-05:00
 draft: false
 ---
 
