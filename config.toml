@@ -55,17 +55,17 @@ disqusShortname = ""
     #  name = "Teaching CV"
     #  url = "teaching"
       
-    #[[params.navigation.links]]
-      #name = "Blog"
-      #url = "blogs"
+    [[params.navigation.links]]
+      name = "Blog"
+      url = "blogs"
 
     # [[params.navigation.links]]
     #  name = "Volunteering"
     #  url = "concerts"
 
-    [[params.navigation.links]]
-      name = "Blog"
-      url = "blog"
+    # [[params.navigation.links]]
+     # name = "Blog"
+     # url = "blog"
 
     # [[params.navigation.links]]
     #  name = "Repertoire"
