@@ -57,7 +57,7 @@ disqusShortname = ""
       
     [[params.navigation.links]]
       name = "Blog"
-      url = "blogs"
+      url = "/single.md"
 
     # [[params.navigation.links]]
     #  name = "Volunteering"
