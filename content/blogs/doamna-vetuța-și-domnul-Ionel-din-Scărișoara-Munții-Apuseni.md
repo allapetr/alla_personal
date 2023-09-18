@@ -2,7 +2,7 @@
 title: "Doamna Vetuța și domnul Ionel din Scărișoara, Munții Apuseni"
 description: "O întâlnire minunată în timpul turneului prin România"
 slug: "doamna-vetuța-și-domnul-Ionel-din-Scărișoara-Munții-Apuseni"
-image: Screen Shot 2023-09-18 at 7.41.15 PM
+image: 20230904_095142.jpg
 keywords: ""
 categories: 
     - ""
